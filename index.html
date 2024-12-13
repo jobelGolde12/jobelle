@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Blog Post Manager</title>
+</head>
+<body>
+  <div class="container">
+    
+    <div class="left">
+    <h1>Blog Post Manager</h1>
+    <p>By: <span style="color: darkgoldenrod;">Jobelle Golpeo</span></p>
+
+        <form id="postForm">    
+            <input type="text" id="title" placeholder="Write your title" required>
+            <textarea id="body" rows="5" placeholder="Write your Content..." required></textarea>
+            <button type="submit">Add Post</button>
+          </form>
+    </div>
+
+    <div id="postsContainer" class="right">
+      <div class="loading"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
